@@ -16,11 +16,11 @@ export default createGlobalStyle`
     font: 16px Roboto, sans-serif;
   }
 
-  #root {
-    max-width: 960px;
-  }
-
   button {
     cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
