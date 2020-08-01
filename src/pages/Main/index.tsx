@@ -1,11 +1,20 @@
 import React from 'react';
 
-import { Title } from './styles';
+import { Container, SearchContainer, SearchInput, Button } from './styles';
+
+import Header from '../../components/Header';
 
 const Main: React.FC = () => {
   return (
     <>
-     <Title>Hello world</Title>
+      <Container>
+        <Header />
+
+        <SearchContainer>
+          <SearchInput />
+          <Button />
+        </SearchContainer>
+      </Container>
     </>
   );
 };
