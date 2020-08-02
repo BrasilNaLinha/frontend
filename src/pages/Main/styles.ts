@@ -39,3 +39,9 @@ export const Button = styled.button`
   color: #fff;
   padding: 6px;
 `;
+
+export const SearchContainer = styled.div``;
+
+export const SearchInput = styled.div``;
+
+export const Button = styled.div``;
