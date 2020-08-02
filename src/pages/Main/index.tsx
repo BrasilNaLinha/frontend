@@ -1,19 +1,16 @@
 import React from 'react';
 
-import { Container, SearchContainer, SearchInput, Button } from './styles';
+import { Container } from './styles';
 
 import Header from '../../components/Header';
+import SearchBar from '../../components/SearchBar';
 
 const Main: React.FC = () => {
   return (
     <>
       <Container>
         <Header />
-
-        <SearchContainer>
-          <SearchInput />
-          <Button />
-        </SearchContainer>
+        <SearchBar />
       </Container>
     </>
   );
