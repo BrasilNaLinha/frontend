@@ -2,18 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-
-  width: 100%;
-  height: 100vh;
-  max-width: 1100px;
-
-  background-color: #e5e5e5;
-`;
-
-export const SearchContainer = styled.div`
-  display: flex;
   justify-content: center;
   padding: 0 30px;
   width: 100%;
@@ -39,9 +27,3 @@ export const Button = styled.button`
   color: #fff;
   padding: 6px;
 `;
-
-export const SearchContainer = styled.div``;
-
-export const SearchInput = styled.div``;
-
-export const Button = styled.div``;
